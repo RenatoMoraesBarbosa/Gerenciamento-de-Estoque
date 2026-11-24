@@ -1,0 +1,36 @@
+header > div {
+    display: inline-block;
+}
+
+header input {
+    display: inline-block;
+}
+
+#menu > button {
+    display: block;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.lado {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
